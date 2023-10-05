@@ -1,0 +1,25 @@
+body {
+    background-image: url(./WhatsApp\ Image\ 2023-06-20\ at\ 10.00.39.jpeg Image\ 2023-06-20\ at\ 10.00.39.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:-15cm;
+}
+#titulo-principal {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h1 {
+text-align: right;
+color: rgb(102, 255, 0); 
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: black;
+    font-size: 30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.foto-tiago {
+    border: 3px;
+    border-color: crimson;
+}

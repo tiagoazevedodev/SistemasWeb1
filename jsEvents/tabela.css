@@ -1,0 +1,24 @@
+td {
+    text-align: center;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    border: solid thin;
+}
+
+#verde {
+    background-color: green;
+}
+
+#rosa {
+    background-color: pink;
+}
+
+#azul {
+    background-color: aqua;
+}
+
+#preto {
+    background-color: black;
+    color: white;
+}

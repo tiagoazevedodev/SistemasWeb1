@@ -1,0 +1,50 @@
+table {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Preto {
+    background-color: black;
+    color: aliceblue;
+}
+.Azul {
+    background-color: aqua;
+}
+.Rosa {
+    background-color: pink;
+}
+.Verde {
+    background-color: green;
+}
+.Branco {
+    background-color: white;
+    color: black;
+}
+.Amarelo {
+    background-color: yellow;
+}
+.Laranja {
+    background-color: orange;
+}
+.Vermelho {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        table{
+            background-image: url(./background.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        input, select, textarea {
+            background-color: rgb(182, 182, 182);
+        }
+        body {
+            color:aliceblue;
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <form name="input" action="envio.html" target="_blank" method="get">
+        <table align="center" border="0">
+            <caption><b> PREENCHA SEUS DADOS CORRETAMENTE </b></caption>
+            <tr>
+                <td colspan="2">NOME: <input size="30" type="text" name="nome" id="nome"></td>
+                <td>IDADE: <input size="5" type="text" name="idade" id="idade"></td>
+                <td colspan="2">SENHA: <input size="20" type="text" name="senha" id="senha"></td>
+            </tr>
+            <tr>
+                <td>Esportes que pratica:</td>
+                <td colspan="2"><input class="avulso" type="checkbox">Volêi<input class="avulso" type="checkbox">Handebol <input class="avulso" type="checkbox">Futebol </td>
+                <td>Outro: <input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Gosta de doces?</td>
+                <td><input type="radio" name="" id="">Sim</td>
+                <td><input class="avulso" type="radio" name="" id="">Não</td>
+            </tr>
+            <td>Selecione <b>duas</b> opções de comida:</td>
+            <td>
+                <select name="" id="">
+                <option value="">Lasanha</option>
+                <option value="">Pizza</option>
+                <option value="">Churrasco</option>
+                <option value="">Arroz e Feijão</option>
+                <option value="">Frango Frito</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center"> <textarea style="text-align: center;" name="" id="" cols="84" rows="5">Conte uma história sobre comida</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="submit" name="" id="">
+                    </center>
+                </td>
+                <td colspan="2">
+                    <center>
+                        <input type="reset" name="" id="">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>    
+</body>
+</html>

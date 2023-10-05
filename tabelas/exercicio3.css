@@ -1,0 +1,41 @@
+#borda_flamengo {
+    border: solid 1px;
+}
+#gremio {
+    color: blue;
+    font-size: 14px
+}
+#flamengo {
+    color: red;
+    font-size: 32px;
+}
+#caixacentral {
+    background-color: aquamarine;
+    width: 345px;
+    margin: auto;
+}
+
+#div1 {
+    text-align: center;
+    background-color: red;
+    height: 250px;
+    width: 500px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+}
+#div2 {
+    text-align: center;
+    background-color: blue;   
+    position: fixed;
+    top: 1;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}

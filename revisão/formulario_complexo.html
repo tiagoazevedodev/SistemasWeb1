@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Complexo</title>
+    <style>
+        .botao {
+            background-color: blue;
+            color: white;
+        }
+        .texto {
+            background-color: green;
+            color: white;
+        }
+        table {
+            background-color: rgb(255, 255, 112);
+        }
+    </style>
+</head>
+<body>
+    <form name="input" action="envio.html" target="_blank" method="get">
+        <table border="1" align="center">
+            <caption>Inscrições Semana Acadêmica</caption>
+                <tr>
+                    <td>Nome:</td>
+                    <td> <input type="text" name="" id="" size="12"></td>
+                    <td colspan="2">Matricula: </td>
+                    <td><input type="text" name="Matricula" id="" size="9"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" colspan="2">Curso: </td>
+                    <td> <input type="radio" name="EC" id="">EC</td>
+                    <td>Semestre:</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="1">1 Semestre</option>
+                            <option value="2">2 Semestre</option>
+                            <option value="3">3 Semestre</option>
+                            <option value="4">4 Semestre</option>
+                            <option value="5">5 Semestre</option>
+                            <option value="6">6 Semestre</option>
+                            <option value="7">7 Semestre</option>
+                            <option value="8">8 Semestre</option>
+                            <option value="9">9 Semestre</option>
+                            <option value="10">10 Semestre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> <input type="radio" name="SI" id="">SI</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="radio" name="" id="">EA</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        MiniCursos:
+                    </td>
+                    <td><input type="checkbox" name="" id="" size="2">MC1</td>
+                    <td><input type="checkbox" name="" id="" size="2">MC2</td>
+                    <td><input type="checkbox" name="" id="" size="2">MC3</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="3">Você quer Participar do HackTon?</td>
+                    <td colspan="3"><input type="radio"> Sim</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="radio">Não</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="3">Forma de Pagamento:</td>
+                    <td colspan="3"> <input type="radio"> Pix</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="radio" name="" id=""> Transferencia:</td>
+                </tr>
+                <tr>
+                    <td  colspan="5"><textarea name="" class="texto" id="" cols="50" rows="4">Indique oque mais te atraiu para participar da semana academica:</textarea></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="4" ><input class="botao" type="submit"></td>
+                    <td align="center" colspan="1" ><input class="botao" type="reset"></td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>

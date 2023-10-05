@@ -1,0 +1,11 @@
+.impar {
+    background-color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.par {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td {
+    text-align: center;
+}

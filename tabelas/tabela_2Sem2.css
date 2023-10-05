@@ -1,0 +1,35 @@
+
+#dotted {
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px;
+    padding: 5px 5px 5px 5px;
+} 
+#dashed {
+    border-style: dashed;
+    border-width: 3px;
+}
+#solid {
+    border-style: solid;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#double_solid {
+    border-style: double solid double solid;
+}
+#groove {
+    border-style: groove;
+}
+#ridge {
+    border-style: ridge;
+    border-width: 8px;
+}
+#inset {
+    border-style: inset;
+    border-width: 5px;
+}
+#outset {
+    border-style: outset;
+    border-width: 5px;
+    padding: 25px;
+}
