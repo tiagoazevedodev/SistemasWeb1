@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction() {
+            let maior = 0
+            let menor = 7777777777777
+            while(true) {
+                entrada = prompt("Adicione um número, ou 0 para parar")
+                if (entrada == 0) {
+                    break
+                }
+                if (entrada > maior) {
+                    maior = entrada
+                }
+                if (entrada < menor) {
+                    menor = entrada
+                }
+            }
+            document.write(`Menor é ${menor}, e o maior é ${maior}`)
+        }
+    </script>
+</head>
+<body>
+    <button onclick="myFunction()">Clique aqui!</button>
+</body>
+</html>

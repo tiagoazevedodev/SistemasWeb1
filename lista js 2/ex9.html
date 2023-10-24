@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        somaPar = 0
+        somaImpar = 0 
+        for (let i = 300; i < 500; i++) {
+           if (i % 2 == 0) {
+                somaPar += i
+           }
+        }
+
+        for (let i = 50; i < 100; i++) {
+            if (i % 2 != 0) {
+                somaImpar += i
+            }
+        }
+        document.write(`Soma dos pares é: ${somaPar}<br>Soma dos impares é: ${somaImpar}<br>Diferença é: ${somaPar-somaImpar}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

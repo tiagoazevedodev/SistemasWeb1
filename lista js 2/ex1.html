@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction() {
+            let somatorio = 0
+            for (let i = 0; i <= 99 ; i++) {
+                if (i % 2 != 0) {
+                    somatorio += i
+                }
+            }
+            document.write(`O somátorio de 1 até 99 é ${somatorio}`)
+        }
+    </script>
+</head>
+<body>
+<button onclick="myFunction()">Clique e obtenha o resultado</button>
+</body>
+</html>
